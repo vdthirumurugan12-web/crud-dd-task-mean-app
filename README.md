@@ -22,6 +22,18 @@ It confirms:
 The green checkmark indicates the pipeline executed successfully.
 
 <img width="1920" height="1080" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/a583d44c-6019-4c20-b727-1ec0223da286" />
+This screenshot displays the Docker build process output.
+
+It verifies:
+- Backend Docker image creation
+- Frontend Docker image creation
+- Successful push to Docker Hub repository
+- Image tags applied correctly (latest)
+
+This confirms containerization is working properly.
+
+
+
 <img width="1920" height="1080" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/0dbe02a3-529b-463e-8368-a6a41ba5a621" />
 <img width="1920" height="1080" alt="Screenshot (15)" src="https://github.com/user-attachments/assets/c48b173a-4d1a-4d69-bf06-673df341ecb7" />
 <img width="1920" height="1080" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/3e076fdf-058d-4509-8ecc-c391b167f3bd" />
