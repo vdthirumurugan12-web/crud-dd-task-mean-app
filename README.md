@@ -1,4 +1,15 @@
 <img width="1920" height="1080" alt="Screenshot (19)" src="https://github.com/user-attachments/assets/cd6011a9-1528-4697-b1d6-0d9029283f6d" />
+This screenshot shows the GitHub Actions workflow configuration file 
+(.github/workflows/docker.yml).
+
+The workflow automatically:
+- Triggers on push to the main branch
+- Logs in to Docker Hub using repository secrets
+- Builds backend and frontend Docker images
+- Pushes the images to Docker Hub
+
+This ensures automated CI/CD for every code update.
+
 <img width="1920" height="1080" alt="Screenshot (18)" src="https://github.com/user-attachments/assets/046911de-39e7-4c98-b262-b104583062fd" />
 <img width="1920" height="1080" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/a583d44c-6019-4c20-b727-1ec0223da286" />
 <img width="1920" height="1080" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/0dbe02a3-529b-463e-8368-a6a41ba5a621" />
