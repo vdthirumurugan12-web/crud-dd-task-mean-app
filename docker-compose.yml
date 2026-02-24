@@ -1,0 +1,30 @@
+services:
+  mongo:
+    image: mongo:4.4
+    container_name: mongo
+    restart: always
+    volumes:
+      - mongo-data:/data/db
+
+  backend:
+    build: ./backend
+    container_name: backend
+    restart: always
+    environment:
+      ME_CONFIG_MONGODB_URL: mongodb://mongo:27017/mongo
+    depends_on:
+      - mongo
+    ports:
+      - "5000:8080"
+
+  frontend:
+    build: ./frontend
+    container_name: frontend
+    restart: always
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+
+volumes:
+  mongo-data:
