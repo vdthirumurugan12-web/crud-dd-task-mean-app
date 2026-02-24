@@ -47,4 +47,14 @@ This confirms containerization is working properly.
 <img width="1920" height="1080" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/674316a0-647c-411a-96fc-e3583213ac58" />
 <img width="1920" height="1080" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/f7e15b9e-8aa1-4a18-9e3c-3c874c87491a" />
 <img width="1920" height="1080" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/831819ca-f5c5-4ae9-be69-26e68f5e182a" />
+This screenshot shows the deployed MEAN stack application 
+running successfully in the browser.
+
+It confirms:
+- Frontend is accessible via port 80
+- Backend API is responding correctly
+- Full CRUD functionality is operational
+
+This verifies the deployment is successful.
+
 <img width="1920" height="1080" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/ac372986-e501-4f2e-87c1-b7d1a22734e3" />
