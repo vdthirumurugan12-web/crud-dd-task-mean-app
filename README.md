@@ -11,6 +11,16 @@ The workflow automatically:
 This ensures automated CI/CD for every code update.
 
 <img width="1920" height="1080" alt="Screenshot (18)" src="https://github.com/user-attachments/assets/046911de-39e7-4c98-b262-b104583062fd" />
+This screenshot shows a successful GitHub Actions workflow run.
+
+It confirms:
+- Source code checkout
+- Docker image build process
+- Successful authentication with Docker Hub
+- Docker image push completion
+
+The green checkmark indicates the pipeline executed successfully.
+
 <img width="1920" height="1080" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/a583d44c-6019-4c20-b727-1ec0223da286" />
 <img width="1920" height="1080" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/0dbe02a3-529b-463e-8368-a6a41ba5a621" />
 <img width="1920" height="1080" alt="Screenshot (15)" src="https://github.com/user-attachments/assets/c48b173a-4d1a-4d69-bf06-673df341ecb7" />
